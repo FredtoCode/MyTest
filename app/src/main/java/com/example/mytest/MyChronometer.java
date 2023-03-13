@@ -9,9 +9,7 @@ import android.widget.Chronometer;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleEventObserver;
-import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
-import androidx.lifecycle.OnLifecycleEvent;
 
 public class MyChronometer extends Chronometer implements LifecycleEventObserver {
 

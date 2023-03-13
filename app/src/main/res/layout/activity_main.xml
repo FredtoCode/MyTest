@@ -87,6 +87,7 @@
             app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
 
         <com.example.mytest.TestView
+            android:id="@+id/testView2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="#CAC0C0"
@@ -94,6 +95,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <com.example.mytest.Views.MldView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/testView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </com.example.mytest.Views.MldView>
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

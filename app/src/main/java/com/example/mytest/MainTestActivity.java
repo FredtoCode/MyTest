@@ -48,13 +48,13 @@ public class MainTestActivity extends AppCompatActivity {
 //        Intent intent = new Intent(this, FirstBroadcastReceiver.class);
         intent.putExtra("msg", "这里这里");
         sendOrderedBroadcast(intent, null);
-        Printer printer = new Printer() {
-            @Override
-            public void println(String x) {
-
-            }
-        };
-        Looper.getMainLooper().setMessageLogging(printer);
+//        Printer printer = new Printer() {
+//            @Override
+//            public void println(String x) {
+//
+//            }
+//        };
+//        Looper.getMainLooper().setMessageLogging(printer);
         Log.e(TAG, "A+onResume_end");
     }
 
@@ -113,4 +113,5 @@ public class MainTestActivity extends AppCompatActivity {
         super.onDestroy();
         Log.e(TAG, "A+onDestroy");
     }
+
 }

@@ -10,6 +10,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
+import com.example.mytest.Utils;
+
 import androidx.annotation.Nullable;
 
 public class TestView extends View {
